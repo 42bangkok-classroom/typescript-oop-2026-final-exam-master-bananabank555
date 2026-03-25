@@ -1,7 +1,5 @@
-export interface IUser {
-    id: string;
+export class CreateUserDto {
     firstName: string;
     lastName: string;
     email: string;
-    username: string;
   }
